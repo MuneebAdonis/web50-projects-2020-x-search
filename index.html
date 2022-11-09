@@ -8,39 +8,37 @@
         <style>
             .btn-primary{
                 width:170px;
+                height: 38px;
                 font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
                 font-weight: 500;
                 font-size: 14px;
                 letter-spacing: 0.25px;
             }
-            a {padding: 10px 25px 10px 10px;}
+            a {padding: 15px 25px 10px 10px;}
         </style>
 
     </head>
     <body>
-        <div  class="row justify-content-end" style = 'background-color:aqua;'>
+        <div  class="row justify-content-end">
             <a href = "images.html"><button class="btn btn-primary">Image Search</button></a>
             <a href = "advanced.html"><button class="btn btn-primary">Advanced Search</button></a>
         </div>
 
-        <div style = 'background-color: chocolate;'>
+        <div style = 'width:279px; margin:auto;'>
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         </div>
     
         <form action="https://www.google.com/search">
             <!-- having this setup; "q=text" is added after search and this gets google search to work-->
-            <div class="row justify-content-center" style = 'background-color:plum; padding:25px;'>
-                <input type="text" name="q" style="border-radius: 25px; width:483px;">
+            <div class="row justify-content-center" style = 'padding:30px 25px;'>
+                <input type="text" name="q" style="border-radius: 25px; width:483px; height: 40px;">
             </div>
             
-            <div class="d-flex justify-content-around" style = 'width:450px;background-color:mediumaquamarine; margin:auto;'>           
+            <div class="d-flex justify-content-around" style = 'width:450px; margin:auto;'>           
                 <input class="btn btn-primary" type="submit" value="Google Search">
-                
                 <input type ="hidden" name = "btnI" value = "1">
                 <input class="btn btn-primary" type="submit" value="Im feeling lucky lucky">
             </div>
-
-
         </form>
         
     </body>
